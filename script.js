@@ -9,14 +9,14 @@ import {CARD_IMAGE, play_game} from "./js/game.js"; // We are 'importing' variab
 // === START #1.1 ===
 // TODO #1.1: Add your with your name!
 // Remove the '/*' and '*/ once you do
-/*
-const PLAYER_NAME ? ???;
-document.getElementById('???').textContent = ???;
+
+const PLAYER_NAME = "Zoey";
+document.getElementById('p1_name').textContent = PLAYER_NAME;
 console.log("Let's play " + PLAYER_NAME +"!");
-*/
+
 // === END #1.1 ===
 
-/**
+/*
  * Draw a card from the provided deck and update the card png and player score
  * This is a 'function' - We'll learn more about functions next week but for now think of it as code we can reuse
  *
